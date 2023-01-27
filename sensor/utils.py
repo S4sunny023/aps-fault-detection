@@ -39,8 +39,6 @@ def write_yaml_file(file_path,data:dict):
             raise SensorException(e, sys) 
 
 
-
-    
 def convert_columns_float(df:pd.DataFrame,exclude_columns:list)->pd.DataFrame:
     try:
         for column in df.columns:

@@ -66,11 +66,13 @@ class DataIngestion:
             logging.info(f"Data ingestion artifact: {data_ingestion_artifact}")
             logging.info("DataIngestion DONE")
             return data_ingestion_artifact
-            
 
         except Exception as e:
             raise SensorException(error_message=e, error_detail=sys)
 
+            
+
+       
 
 
 

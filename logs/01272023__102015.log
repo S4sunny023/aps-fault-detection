@@ -1,0 +1,20 @@
+[ 2023-01-27 10:20:20,044 ] 157 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2023-01-27 10:20:26,688 ] 17 root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Data Ingestion <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[ 2023-01-27 10:20:26,689 ] 24 root - INFO - Exporting collection data as pandas dataframe
+[ 2023-01-27 10:20:26,689 ] 19 root - INFO - Reading data from database: aps and collection: sensor
+[ 2023-01-27 10:24:32,264 ] 21 root - INFO - Found columns: Index(['_id', 'class', 'aa_000', 'ab_000', 'ac_000', 'ad_000', 'ae_000',
+       'af_000', 'ag_000', 'ag_001',
+       ...
+       'ee_002', 'ee_003', 'ee_004', 'ee_005', 'ee_006', 'ee_007', 'ee_008',
+       'ee_009', 'ef_000', 'eg_000'],
+      dtype='object', length=172)
+[ 2023-01-27 10:24:32,648 ] 23 root - INFO - Dropping column: _id 
+[ 2023-01-27 10:24:34,436 ] 25 root - INFO - Row and columns in df: (144752, 171)
+[ 2023-01-27 10:24:34,441 ] 30 root - INFO - Save data in feature store
+[ 2023-01-27 10:24:36,627 ] 36 root - INFO - Create feature store folder if not available
+[ 2023-01-27 10:24:36,669 ] 40 root - INFO - Save df to feature store folder
+[ 2023-01-27 10:24:48,222 ] 45 root - INFO - split dataset into train and test set
+[ 2023-01-27 10:24:52,878 ] 49 root - INFO - create dataset directory folder if not available
+[ 2023-01-27 10:24:52,879 ] 54 root - INFO - Save df to feature store folder
+[ 2023-01-27 10:25:04,489 ] 66 root - INFO - Data ingestion artifact: DataIngestionArtifact(feature_store_file_path='F:\\aps-fault-detection\\artifact\\01272023__102026\\data_ingestion\\feature_store\\sensor.csv', train_file_path='F:\\aps-fault-detection\\artifact\\01272023__102026\\data_ingestion\\dataset\\train.csv', test_file_path='F:\\aps-fault-detection\\artifact\\01272023__102026\\data_ingestion\\dataset\\test.csv')
+[ 2023-01-27 10:25:04,489 ] 67 root - INFO - DataIngestion DONE

@@ -1,0 +1,4 @@
+[ 2023-01-27 14:56:24,592 ] 157 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2023-01-27 14:56:30,777 ] 17 root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Data Ingestion <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[ 2023-01-27 14:56:30,778 ] 24 root - INFO - Exporting collection data as pandas dataframe
+[ 2023-01-27 14:56:30,778 ] 19 root - INFO - Reading data from database: aps and collection: sensor
