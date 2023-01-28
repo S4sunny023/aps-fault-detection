@@ -10,8 +10,6 @@ import numpy as np
 from sensor.config import TARGET_COLUMN
 
 
-
-
 class DataValidation:
 
     def __init__(self,data_validation_config:config_entity.DataValidationConfig,
@@ -154,4 +152,7 @@ class DataValidation:
             return data_validation_artifact
         except Exception as e:
             raise SensorException(e, sys)
+
+
+            
 

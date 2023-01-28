@@ -6,8 +6,8 @@ import json
 from sensor.config import mongo_client
 
 DATA_FILE_PATH=(r"F:\aps-fault-detection\aps_data.csv")
-DATABASE_NAME="aps"
-COLLECTION_NAME="sensor"
+DATABASE_NAME ="aps"
+COLLECTION_NAME ="sensor"
 
 if __name__=="__main__":
     df = pd.read_csv(DATA_FILE_PATH)

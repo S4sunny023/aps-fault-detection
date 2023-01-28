@@ -7,7 +7,7 @@ from sensor.components.data_ingestion import DataIngestion
 from sensor.components.data_validation import DataValidation
 
 
-if __name__=="__main__":
+if __name__ == "__main__":
      try:
         training_pipeline_config = config_entity.TrainingPipelineConfig()
 
@@ -20,10 +20,11 @@ if __name__=="__main__":
         #DataValidation
         
         data_validation_config = config_entity.DataValidationConfig(training_pipeline_config=training_pipeline_config)
-        data_validation = DataValidation(data_validation_config=data_validation_config,
-                         data_ingestion_artifact=data_ingestion_artifact)
+        data_validation = DataValidation(data_validation_config=data_validation_config,data_ingestion_artifact=data_ingestion_artifact)
+                         
         
         data_validation_artifact = data_validation.initiate_data_validation()
                           
      except Exception as e:
-          print(e)
+          print(e)   
+          
